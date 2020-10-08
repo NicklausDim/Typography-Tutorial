@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Sansita+Swashed:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/d7faf1ae4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Typography Tutorial</h1>
+    </header>
+    <main>
+        <section class="box">
+            <h2>color</h2>
+            <h4>Default value {}</h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    defines the color of the text.
+
+                    <h5>Syntax</h5>
+
+                    color: "color-value"
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        Hello World
+                    </p>
+                </aside>
+            </article>
+
+            <h4>Trasnparent color {color: rgba(163, 140, 247, 0.666)}</h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    <br>
+                    <br>
+                    <br>
+                    Color can be transparent with the alpha value of color codes
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        Hello World
+                    </p>
+                </aside>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section class="box">
+            <h2>font-family</h2>
+            <h4>Default value </h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    Sets a specific font for the text.
+
+                    <h5>Syntax</h5>
+
+                    font-family: "font (family) name"
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        Hello World
+                    </p>
+                </aside>
+            </article>
+
+            <h4>Internal Spesific Font {font-family: Arial, Helvetica, sans-serif}</h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    <ul>
+                        <li>Browser tries Arial first. </li>
+                        <li>If it's not possible to use then tries to Halvetica.</li>
+                        <li>If it's not possible too, then tries sans-serif.</li>
+                        <li>If last one also not possible to use, then browser uses default font.</li>
+                    </ul>
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        Hello World
+                    </p>
+                </aside>
+            </article>
+
+            <h4>External Spesific Font Via HTML link {font-family: 'Sansita Swashed', cursive}</h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    Externally fonts can be used in HTML via &lt;link href&gt;
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        Hello World
+                    </p>
+                </aside>
+            </article>
+
+            <h4>External Spesific Font Via CSS Import {font-family: 'Josefin Sans', sans-serif}</h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    Externally fonts can be used in HTML via @import url()
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        Hello World
+                    </p>
+                </aside>
+            </article>
+
+        </section>
+        <br>
+        <br>
+        <section class="box">
+            <h2>font-size</h2>
+            <h4>Default value {}</h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    defines the color of the text.
+
+                    <h5>Syntax</h5>
+
+                    font-size: "size + unit"
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        Hello World
+                    </p>
+                </aside>
+            </article>
+
+            <h4>Relative size {font-size: 1.2em;}</h4>
+            <article>
+                <div>
+                    <!-- for explanation -->
+                    <br>
+                    <br>
+                    <br>
+                    Calculates the font sizes about parent font size.
+                    Parent Font Size * XYZem
+                </div>
+    
+                <aside>
+                    <!-- for the output -->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    Parent container: 20px;
+                    <div>
+                        font-size: 1.2em; (24px)
+                        <div>
+                            font-size: 1.2em; (28.8px)
+                            <div>
+                                font-size: 1.2em; (34.56px)
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <br>
+    <br>
+    <section class="box">
+        <h2>Font sizes<br></h2>
+        <article>
+        <div>
+            <!-- for explanation -->
+            <br>
+            <br>
+            <br>
+            These are Small and smaller!
+        </div>
+        <aside>
+            <!-- for the output -->
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>
+                <div>I am Normal</div>
+                <div class="small">I am smaller</div>
+                <div class="smaller">I am smaller</div>
+                
+            </p>
+        </aside>
+        </article>
+        <article>
+        <div>
+            <!-- for explanation -->
+            <br>
+            <br>
+            <br>
+            These are Big and Bigger!
+        </div>
+
+        <aside>
+            <!-- for the output -->
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>
+                <div>I am Normal</div>
+                <div class="big">I am Big</div>
+                <div class="bigger">I am Bigger</div>
+                
+            </p>
+        </aside>
+        </article>
+        <article>
+        <div>
+            <!-- for explanation -->
+            <br>
+            <br>
+            <br>
+            These sizes according to percentage!
+        </div>
+
+        <aside>
+            <!-- for the output -->
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>
+                <div>I am Normal</div>
+                <div class="big150">I am 150% Larger</div>
+                <div class="small50">I am 50% smaller</div>
+                
+            </p>
+        </aside>
+        </article>
+    </section>
+    <hr>
+    <br>
+    <section class="box">
+        <h2>Special characters</h2>
+        <article>
+            <div>
+                <!-- for explanation -->
+                <br>
+                <br>
+                <br>
+                These are special cases
+            </div>
+            <aside>
+                <!-- for the output -->
+                <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                </ul>
+                <p>
+                    <div class="large">E=mc<sup>2</sup></div>
+                    <div >This is <del>Delete</del> Delete!</div>                
+                </p>
+                <br>
+            </aside>
+        </article>
+    </section>
+        <br>
+        <br>
+    <section class="box">
+        <h2>Font Decoration!</h2>
+        <article>
+            <div>
+                <!-- for explanation -->
+                <br>
+                <br>
+                <br>
+                This is bold, italic and underline!
+            </div>
+            <aside>
+                <!-- for the output -->
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>
+                    <div>I am <b>BOLD</b></div>
+                    <div class="Italic">I am Italic</div>
+                    <div class="underline">I am Underlined</div>                    
+                </p>
+            </aside>
+        </article>
+            <br>
+            <br>
+            <br>
+        <article>
+            <div>
+                <!-- for explanation -->
+                <br>
+                <br>
+                <br>
+                This is font Weight!
+            </div>
+            <aside>
+                <!-- for the output -->
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>
+                    <div>I am normal!</div>
+                    <div class="fw400">I am Font Weight 400</div>
+                    <div class="fw800">I am Font Weight 800</div>                    
+                </p>
+            </aside>
+        </article>
+    </section>
+    <br>
+    <br>
+    <section class="box">
+        <h2>Text decoration</h2>
+        <article>
+            <div>
+                <!-- for explanation -->
+                <br>
+                <br>
+                <br>
+                This is text shadow 2px 6px red!
+            </div>
+            <aside>
+                <!-- for the output -->
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>
+                    <div class="textshadow26">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sequi saepe nobis asperiores quisquam blanditiis sint odit, fuga corporis accusantium. Iure voluptate eum consequuntur provident quae modi voluptas numquam deleniti.</div>                
+                </p>
+            </aside>
+            <br>
+            <br>
+            <br>
+        </article>
+        <article>
+            <div>
+                <!-- for explanation -->
+                <br>
+                <br>
+                <br>
+                All letters are turned to capitals!
+            </div>
+            <aside>
+                <!-- for the output -->
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>
+                    <div class="capital">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sequi saepe nobis asperiores quisquam blanditiis sint odit. </div>                
+                </p>
+            </aside>
+        </article>
+        <br>
+        <br>
+        <article>
+            <div>
+                <!-- for explanation -->
+                <br>
+                <br>
+                <br>
+                Only first letter is capital!
+            </div>
+            <aside>
+                <!-- for the output -->
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>
+                    <div class="firstletter">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sequi saepe nobis asperiores quisquam blanditiis sint odit, fuga corporis accusantium. Iure voluptate eum consequuntur provident quae modi voluptas numquam deleniti.</div>                
+                </p>
+            </aside>
+        </article>
+        <br>
+        <br>
+        <article>
+            <div>
+                <!-- for explanation -->
+                <br>
+                <br>
+                <br>
+                No capitals!
+            </div>
+            <aside>
+                <!-- for the output -->
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>
+                    <div class="lowercase">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sequi saepe nobis asperiores quisquam blanditiis sint odit, fuga corporis accusantium. Iure voluptate eum consequuntur provident quae modi voluptas numquam deleniti.</div>                
+                </p>
+            </aside>
+            <br>
+            <br>
+            <br>
+        </article>
+    </section>
+        
+
+
+    <footer>
+        <h3>2020 October</h3>
+    </footer>
+</body>
+</html>
